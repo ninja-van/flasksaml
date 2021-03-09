@@ -6,7 +6,7 @@ A Flask wrapper that implements SAML Service Provider (SP) functionalities. A ma
 ## Installation
 
 ```
-pip install flask-saml
+pip install flasksaml
 ```
 
 ## Usage
@@ -25,7 +25,8 @@ containing those 2 files in the `FLASK_SAML_SETTINGS_PATH` environment variable.
 Create your Flask application using the FlaskSAML class as such:
 
 ```python
-from flask_saml import FlaskSAML
+from flasksaml import FlaskSAML
+
 app = FlaskSAML(__name__)
 
 # Set a cryptographically secure secret key. This secret key is used to sign session cookies. Failure to

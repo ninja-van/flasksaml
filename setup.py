@@ -6,10 +6,10 @@ with open(requirements_path) as fh:
     requirements = fh.read().split("\n")
 
 setup(
-    name="flask-saml",
+    name="flasksaml",
     version="0.1.0",
     description="A Flask wrapper that implements SAML Service Provider functionalities",
-    url="https://github.com/ninja-van/flask-saml.git",
+    url="https://github.com/ninja-van/flasksaml.git",
     author="Teddy Hartanto",
     author_email="teddyhartanto96@gmail.com",
     classifiers=[

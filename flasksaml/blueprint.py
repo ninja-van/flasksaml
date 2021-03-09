@@ -1,7 +1,7 @@
 from flask import Blueprint, request, redirect, session, make_response
 from onelogin.saml2.utils import OneLogin_Saml2_Utils
 
-from flask_saml.helper import build_saml_request, init_saml_auth
+from flasksaml.helper import build_saml_request, init_saml_auth
 
 saml_blueprint = Blueprint("saml", __name__, url_prefix="/saml")
 

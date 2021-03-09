@@ -2,8 +2,8 @@ import os
 
 from flask import Flask, request, redirect, session
 
-from flask_saml.blueprint import saml_blueprint
-from flask_saml.helper import build_saml_request, init_saml_auth
+from flasksaml.blueprint import saml_blueprint
+from flasksaml.helper import build_saml_request, init_saml_auth
 
 WHITELISTED_ENDPOINTS = os.environ.get("FLASK_SAML_WHITELISTED_ENDPOINTS", "status,healthcheck,health")
 
