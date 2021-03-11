@@ -5,10 +5,14 @@ requirements_path = os.path.join(os.path.dirname(__file__), 'requirements.txt')
 with open(requirements_path) as fh:
     requirements = fh.read().split("\n")
 
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
 setup(
     name="flasksaml",
     version="0.1.0",
     description="A Flask wrapper that implements SAML Service Provider functionalities",
+    long_description=long_description,
     url="https://github.com/ninja-van/flasksaml.git",
     author="Teddy Hartanto",
     author_email="teddyhartanto96@gmail.com",
