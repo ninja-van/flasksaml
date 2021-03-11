@@ -13,6 +13,7 @@ setup(
     version="0.1.0",
     description="A Flask wrapper that implements SAML Service Provider functionalities",
     long_description=long_description,
+    long_description_content_type="text/markdown",
     url="https://github.com/ninja-van/flasksaml.git",
     author="Teddy Hartanto",
     author_email="teddyhartanto96@gmail.com",
